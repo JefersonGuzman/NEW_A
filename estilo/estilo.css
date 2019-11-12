@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Boogaloo');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+header img{
+    width:100%;
+    height:50% !important;
+    background-color: black;
+}
+
+
+.titulo{
+    font-size: 40px;
+    font-family: 'Boogaloo', cursive;
+    color: black;
+    text-align: center;
+}
+
+.icono{
+    text-align: center;;
+
+}
+.icono img{
+    width:200px !important;
+    height:200px !important;
+}
+.barra .titulo{
+    color: aliceblue;
+}
+
+.section{
+    margin-top:10px;
+}
+.img-public{
+    margin-top:5px;
+    width:200px !important;
+    height:350px !important;
+}
+
+.servicios img{
+    width:100px;
+    height:100px;
+}
+
+.espacio{
+    color: aliceblue;
+    width:100%;
+    padding:50px;
+    text-align:center;
+}
+
+footer {
+    background-color:#000000;
+    color: aliceblue;
+    width:100%;
+    height:100px;
+    text-align:center;
+    /* position: fixed; */
+    bottom: 0;
+    margin-top: -00px;
+ 
+ }
+ 
+ footer p{  
+     font-family: 'Boogaloo', cursive;
+     font-size: 15px;   
+     color:#fff;
+     text-align:center;
+ }
+
+ .icono-footer>img{
+    height:100px;
+    width:100px;
+    margin-left: 120%;
+    
+ }
