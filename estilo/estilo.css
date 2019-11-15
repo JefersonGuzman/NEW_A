@@ -89,3 +89,8 @@ footer {
     width:100px;
     
  }
+
+ .footer-redes p:hover{
+     background-color: #fff;
+     color:#000000;
+ }
