@@ -363,6 +363,72 @@ h3{
 
 }
 
+.Torneo-Inscripcion p{
+    color: #ffffff;
+    background-color: #fd7200;
+    width:100px;
+    padding:5px;
+    text-align: center;
+    font-family:Boogaloo;
+    border-radius: 10px;
+
+}
+
+.Torneo-Inscripcion p:hover{
+    color: #ffffff;
+    background-color: #d16003;
+    width:100px;
+    padding:4px;
+    text-align: center;
+    font-family:Boogaloo;
+    border-radius: 10px;
+
+}
+
+.Torneo-Reglas p{
+    color: #ffffff;
+    background-color: #bb0e0e;
+    width:100px;
+    padding:5px;
+    text-align: center;
+    font-family:Boogaloo;
+    border-radius: 10px;
+
+}
+
+.Torneo-Reglas p:hover{
+    color: #ffffff;
+    background-color: #940505;
+    width:100px;
+    padding:4px;
+    text-align: center;
+    font-family:Boogaloo;
+    border-radius: 10px;
+
+}
+
+.Torneo-ver-mas p{
+    color: #ffffff;
+    background-color: #025fb6;
+    width:100px;
+    padding:5px;
+    text-align: center;
+    font-family:Boogaloo;
+    border-radius: 10px;
+
+}
+
+.Torneo-ver-mas p:hover{
+    color: #ffffff;
+    background-color: #075195;
+    width:100px;
+    padding:4px;
+    text-align: center;
+    font-family:Boogaloo;
+    border-radius:5px;
+
+}
+
 
 .card-body{
     height:505px !important;
@@ -657,6 +723,14 @@ footer .subtitulo{
     .card-noticias{
         width:100% !important;
 
+    }
+
+    
+    .logo{
+        width:150px;
+        height:150px;
+        margin-left:0 !important;
+        margin-right:0 !important;
     }
 
 
