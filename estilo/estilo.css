@@ -728,6 +728,12 @@ footer .subtitulo{
         margin-right:0 !important;
     }
 
+    .title-menu{
+        color: #fff;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 10px;
+        display: inline !important;
+      }
 
 }
 
@@ -1037,6 +1043,12 @@ footer .subtitulo{
         height:210px !important;
     }
 
+    .title-menu{
+        color: #fff;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 10px;
+        display: none !important;
+      }
     
 
 }
