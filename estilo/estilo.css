@@ -1,136 +1,967 @@
 @import url('https://fonts.googleapis.com/css?family=Boogaloo');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Just+Another+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quantico&display=swap');
 
-
-header img{
-    width:100%;
-    height:100% !important;
-    background-color: black;
-}
-
-
-.titulo{
-    font-size: 40px;
-    font-family: 'Just Another Hand', cursive;
-    color: black;
-    text-align: center;
+html {
+  min-height: 100%;
 
 }
 
-.subtitulo{
-    font-size:20px;
-    font-family: 'Just Another Hand', cursive;
-    color: rgb(255, 255, 255);
-    text-align: left;
+.fondos{
+    background-color: rgb(92, 92, 92);
 }
 
-.texto{
-    font-size:15px;
-    text-align: left;
+body{
+    margin: 0;
+    height:10px !important;
+    border: 0px solid #333;
+    color:black;
+
+} 
+
+.inicio-parrafo{
+    padding-top:80px;
+    padding-bottom:80px;
+    
+}
+
+.parrafo{
+    font-family: 'Quantico', sans-serif;
+}
+
+.linea{
+    background-color: rgba(0, 0, 0, 0.639);
+    height:2px;
+}
 
 
+
+.equipos img {
+    width:310px !important;
+    height:250px !important;
+    margin-top:5% !important;
+}
+
+
+.es img{
+   margin-top:3%;
+}
+.bannerImg{
+    margin:20px;
+}
+
+img{
+    width: 100%;
 }
 
 .icono{
-    text-align: center;;
+    padding: 5px;
+    width:80px !important;
+    height:80px !important;
 }
-.icono img{
-    width:200px !important;
-    height:200px !important;
+.titulo{
+
+    font-size:30px;
+    font-family: 'Press Start 2P', cursive;
+    color: black;
+    text-align: center;
+    letter-spacing:1px;
+}
+.textHeader{
+    margin-left: -25px;
+    margin-top:5%;
+    padding:20px;
+    color: #fff;
+    font-family: 'Press Start 2P', cursive;
+}
+.twitter{
+    width: 100px;
+    height:100px;
+}
+
+
+.iconos{
+    width:40px;
+    height:30px;
+}
+.redes a {
+    color:#000;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+.redes strong:hover{
+    background-color:black;
+    color:#fff;
+    padding:10px;
+}
+
+
+p{
+    margin:20px 0px 0px 0px;
+    text-align: justify;
+}
+
+h3{
+    color:black;
+}
+.titulo_historia h1{
+     text-align:center;
+}
+
+.titulo_modal{
+    color: black;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.menu{
+    background-color:rgb(0, 0, 0);
+    text-align: center;
+}
+
+.text_columna{
+   text-align:justify;
+}
+.text_columna img{
+    width: 100%;
+}
+.descrip_colum_2{
     padding: 10px;
 }
-.barra .titulo{
-    color: aliceblue;
-}
 
-.servicios {
-    height:50% !important;
-}
-
-.servicios img{
-    width:80px;
-    height:80px;
-}
-
-
-.img-public img{
-    height:40% !important;
-
-}
-
-.espacio{
+.cuadro {
     color: aliceblue;
     width:100%;
-    padding:50px;
+    padding:100px;
     text-align:center;
 }
 
+.conteiner-juegos{
+    margin-top: 20px;
+    width:100%;
+    height:100%;
+    border: 1px rgba(39, 7, 58, 0.541) dashed;
+    background-color: rgba(39, 7, 58, 0.541);
+}
+
+.conteiner-juegos img {
+    width:200px;
+    padding:30px;
+    
+
+}
 
 
-footer {
+.logo{
+    margin-left:35%;
+    margin-right:35%;
+    /* background-color: rgb(0, 0, 0); */
+    border-radius:50%;
+    width:150px;
+    height:150px;
+}
+
+
+.flip-1{
+    width:400px !important;
+    height:200px !important;
+    margin-top: 10px !important;
+
+}
+
+
+/*CAMISA DEL EQUIPO*/
+.camisa {
+    z-index: 10;
+    position: fixed;
+    bottom: -10;
+    right: 50;
+    width: 180px;
+    height: 150px;
+    display: block;
+    text-align: right;
+}
+
+
+.info{
+    border-left: #230044 4px solid;
+    padding: 10px;
+}
+
+.info:hover{
+    border-left: #230044 6px solid;
+
+}
+.subtitulo{
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+    color: black;
+}
+.competencias {
+    width:100%;
+}
+
+.competencias img {
+    width:110px !important;
+    height:100px !important;
+}
+
+
+.info ul {
+    list-style-type: square;
+}
+.info ul li {
+    padding: 8px 10px;
+    color: #111;
+}		
+.info ul li:nth-child(odd) { /* filas pares */
+    background-color: #f5f5f5;
+}
+.info ul li:nth-child(even) { /* filas impares */
+    background-color: #e5e5e5;
+}
+
+
+
+.img-polios li img{
+    width:50px !important;
+    height:50px !important;
+    padding:5px;
+}
+
+
+.precio p{
+    font-size:20px !important;
+    color: #333;
+    font-family: 'Anton', sans-serif;
+    text-align: justify;
+}
+.mercancia-camisa img{
+    top: 0;
+    left: 0;
+    right: 0;
+    height:180px;
+    width:300px;
+}
+
+
+.mercancia-buso img {
+    top: 0;
+    left: 0;
+    right: 0;
+    height:180px;
+    width:300px;
+}
+
+.mercancia-gorra img{
+    top: 0;
+    left: 0;
+    right: 0;
+    height:180px;
+    width:300px;
+}
+
+
+
+
+.informacion{
+    font-size:9px;
+    margin-top: -10px;
+}
+
+.btn-whatsapp{
+    margin-top: 20px;
+    font-family: 'Anton', sans-serif;
+    font-size:15px;
+    width:100%;
+    padding:10px;
+    color: #fff;
+    background-color: #25d366!important;
+    /* border:2px dashed  rgb(255, 251, 251); */
+
+}
+
+.btn-whatsapp:hover{
+    width:99%;
+    padding:10px;
+    color: #fff;
+    font-size:17px;
+    background-color: #25d366!important;
+    filter: drop-shadow(5px 5px 10px rgb(68, 68, 68));
+
+}
+
+.btn-whatsapp img{
+    width:30px;
+    height:30px;
+    margin-left: -11%;
+    margin-right:5%;
+}
+
+
+.btn-email{
+    margin-top:20px;
+    margin-bottom:20px;
+    font-family: 'Anton', sans-serif;
+    font-size:15px;
+    width:100%;
+    padding:10px;
+    color: #fff;
+    background-color: #080808!important;
+    /* border:2px dashed  rgb(255, 251, 251); */
+
+}
+
+.btn-email:hover{
+    padding:10px;
+    color: #fff;
+    font-size:17px;
+    background-color: #030303!important;
+    filter: drop-shadow(5px 5px 10px rgb(68, 68, 68));
+
+}
+
+.btn-email img{
+    width:30px;
+    height:30px;
+    margin-left: -11%;
+    margin-right:5%;
+}
+
+/************************************************/
+/************ ESTILO CARD NOTICIAR**************/
+/************************************************/
+
+.card span{
+    color:#4e0aa1;
+    font-size: 15px;
+    text-transform: uppercase;
+
+}
+
+.fecha-publicacion p{
+    color: #ffffff;
+    background-color: #000000;
+    width:200px;
+    padding:5px;
+    text-align: center;
+    font-family:Boogaloo;
+
+}
+
+.Torneo-terminado p{
+    color: #ffffff;
+    background-color: #440000;
+    width:200px;
+    padding:5px;
+    text-align: center;
+    font-family:Boogaloo;
+
+}
+
+
+.card-body{
+    height:505px !important;
+    padding:10px;
+    border: 1px rgba(39, 7, 58, 0.541) dashed;
+ 
+}
+
+.card:hover{
+    box-shadow: 4px 4px 10px #666;        /* Sombra normal */
+}
+
+.card-noticias{
+    padding: 10px;
+    height:550px !important; 
+
+}
+
+.card img {
+    height:230px;
+}
+
+.card h5{
+    font-size: 15px;
+}
+
+.torneos{
+    padding: 20px;
+}
+
+.torneos img {
+    height: 210px;
+}
+
+.conteiner-juegos a img:hover {
+    width: 200px !important;
+    padding: 10px;
+}
+
+.icono-redes-facebook{
+    background-color: #025fb6;
+    width:30px;
+    border-radius:5px;
+    padding:5px;
+    text-align: center;
+}
+
+.icono-redes-facebook a{
+    font-size: 15px;
+    color: #ccc;
+}
+
+.icono-redes-facebook:hover{
+    width:31px;
+    padding:6px;
+
+}
+
+.icono-redes-twitter{
+    background-color: #0da3e9;
+    margin-left:3px;
+    width:30px;
+    border-radius:5px;
+    padding:5px;
+    text-align: center;
+}
+
+.icono-redes-twitter a{
+    font-size: 15px;
+    color: #ccc;
+}
+
+.icono-redes-twitter:hover{
+    width:31px;
+    padding:6px;
+
+}
+
+.text_footer {
     background-color:#000000;
     color: aliceblue;
     width:100%;
     height:100%;
+    padding:20px;
     text-align:center;
-    /* position: fixed; */
-    bottom: 0;
-    margin-top: -0px;
  
  }
+.sponsor{
+    padding: 50px;
+}
+
+
  
  footer p{  
-     font-size: 25px;   
-     color:#fff;
-     text-align:center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;   
+    color:#fff;
+    text-align:center;
  }
 
- .icono-footer>img{
-    height:150px;
-    width:150px;
+.cuadro_footer{
+    height:150px !important;
+}
+ 
+.logo_footer{
+    width:90px;
+    height:60px;
+ }
+footer .logo {
+    width: 250px;
+    height:140px;
+    padding: 10px !important;
+}
+
+.text_footer a{
+    color:#fff;
+}
+
+.text_footer a:hover{
+    color:#ffffffd0;;
+
+}
+footer .subtitulo{
+    color:#025fb6;
+    font-size:15px;
+    text-align:justify;
     
- }
-
- .footer-redes p:hover{
-     background-color: #fff;
-     color:#000000;
- }
-
-@media (min-width: 1200px) {
-
-    .img-public{
-        padding: 10px;
-    }
 }
 
-@media (min-width: 768px) {
 
-    .img-public{
-        padding: 10px;
-    }
 
-    .servicios p{
-        font-size: 12px !important;
-    }
-
-    .icono img{
-        width:150px !important;
-        height:150px !important;
-    }
+.contenido > p{
+    height:100%;
+    width:100%;
+    font-size:15px !important;
+    font-family: 'Press Start 2P', cursive;
+    color: black;
 
 }
 
-@media (min-width: 320px) {
-    .img-public{
-        padding: 10px;
+/**********************************************/
+/***************PAGINA DE ERROR****************/
+/**********************************************/
+
+.pagina-error {
+    background-color: rgba(45, 3, 76, 0.931);
+}
+
+.page-error {
+    padding:30px;
+}
+
+.page-error .error { 
+    font-family: 'Pacifico';
+    font-size: 10pc !important;
+    color: #f1f1f1;
+}  
+
+.page-error .mgs-error { 
+    font-size: 5pc !important;
+    font-family: 'Press Start 2P', cursive;
+    color: #f1f1f1;
+} 
+
+.page-error h3{
+    font-family: 'Press Start 2P', cursive;
+    font-size:2pc;
+    color: #f1f1f1;
+    
+}
+
+
+
+.logo-blanco-v1 img{
+    margin-top:10%;
+    width:400px;
+    height:380px !important;
+}
+
+
+
+
+
+/**********************************************/
+/***********ESTILO ANUNCIOS********************/
+/**********************************************/
+
+.card-add{ 
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: -10%;
+    width:100%;
+}
+
+
+.panel-marquee-Ess-FF{
+    background-image: url('https://pbs.twimg.com/media/EG4X4aZWkAAMI6d?format=jpg&name=small'); 
+    background-position: center bottom; 
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.panel-marquee-Liga-CR{
+    background-image: url('https://pbs.twimg.com/media/D0_vG9IXQAEE9PU?format=jpg&name=small') ; 
+    background-position:center bottom; 
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    
+}
+
+
+
+
+@media only screen and (min-width: 120px) {
+
+
+    .header-1{
+        width:100px;
+        background-position: -250px -0px !important;
+    }
+    
+    .header-2{
+        background-position: -180px -290px !important;
+    }
+    
+    .header-3{
+        background-position: -190px -575px !important;
     }
 
-    .img-public>img{
-        width:100%;
+    .icono{
+        width:50px;
+        height:50px;
+    }
+
+    .textHeader{
+        font-size:25px;
+    }
+
+    /*CAMISA DEL EQUIPO*/
+    .camisa {
+        display: none;
+    }
+
+
+
+    .info-img img{
+        margin-left:50%;
+    }
+
+
+    .equipos  a div{
+        text-align: center;
+        margin-bottom: 5%;
+        margin-top:10px;
+        width:100% ;
+        height:180px;
+        background-color: rgba(39, 7, 58, 0.541);
+        border-radius: 20px;
+    
+    }
+
+    .equipos div:hover{
+        text-align: center;
+        margin-bottom: 5%;
+        margin-top:10px;
+        width:99%;
+        height:190px;
+        background-color:#230044;
+        border-radius: 30px;
+    
+    }
+
+    footer p{  
+        font-family: 'Press Start 2P', cursive;
+        font-size: 12px;   
+        color:#fff;
+        text-align:center;
+    }
+
+  
+
+    .card-body{
+        height: 300px !important;
+    }
+
+    .card-body p{
+        font-size:11px !important;
+    }
+
+    .card-noticias{
+        width:100% !important;
+
+    }
+
+
+}
+
+@media only screen and (min-width: 400px) {
+
+
+    .logo{
+        margin-left:35%;
+        margin-right:35%;
+        border-radius:50%;
+        width:150px;
+        height:150px;
+    }
+
+    .video iframe{
+        width:360px;
+        height:210px;
+
+    }
+
+
+
+    .header-1{
+        background-position: -250px -0px !important;
+    }
+    
+    .header-2{
+        background-position: -180px -290px !important;
+    }
+    
+    .header-3{
+        background-position: -190px -575px !important;
+    }
+
+
+    .product{
+        background-color: #fafafa;
+        margin: 1rem;
+        padding: 1rem;
+        border: 2px solid #ccc;
+        width:50%;
+        height:300px;
+        text-align: center;
+        margin-left:25%;
+        margin-bottom: 5%;
+        margin-top:10px;
+    
+    }
+    
+    .contenido > p{
         height:100%;
+        width:100%;
+        font-size:15px !important;
+        font-family: 'Press Start 2P', cursive;
+        color: black;
+
     }
 
+    /**************************/
+    /***** iframe ***************/
+    /****************************/
+    .card-noticias{
+        padding: 10px;
+        height:550px !important;
+        width:50%;
+    }
+    
+
+    .card-body{
+        height: 310px !important;
+    }
+
+    .card-body p{
+        font-size:10px !important;
+    }
+
+
+
+    
+    .card-noticias{
+        width:50% !important;
+        height:500px !important;
+    }
+
+    .fecha-publicacion p{
+        color: #ffffff;
+        background-color: #000000;
+        width:100px;
+        padding:5px;
+        font-size: 8px !important;
+        text-align: center;
+    }
+
+    .Torneo-terminado p{
+        color: #ffffff;
+        background-color: #440000;
+        width:100px;
+        padding:5px;
+        font-size: 8px !important;
+        text-align: center;
+    }
+
+    .torneos img {
+        height:300px !important;
+    }
+
+
+
+
+
+}
+
+@media only screen and (min-width: 770px) {
+
+
+    .header-1{
+        background-position: -0px -0px !important;
+    }
+    
+    .header-2{
+        background-position: -0px -290px !important;
+    }
+    
+    .header-3{
+        background-position: -0px -575px !important;
+    }
+    /*CAMISA DEL EQUIPO*/
+    .camisa {
+        z-index: 10;
+        position: fixed;
+        bottom:0;
+        right: 50;
+        width: 220px;
+        height: 170px;
+        display: block;
+        margin-bottom: 2%;
+        margin-left:1%;
+    }
+
+
+    .info-img>img{
+        margin-left:-50%;
+        width:300px !important;
+        height:300px !important;
+    }
+
+    .equipos  a div{
+        text-align: center;
+        margin-left:2%;
+        margin-bottom: 5%;
+        margin-top:10px;
+        width:340px ;
+        height:180px;
+        background-color: rgba(39, 7, 58, 0.541);
+        border-radius: 20px;
+    
+    }
+
+    
+
+    .equipos div:hover{
+        text-align: center;
+        margin-left:2%;
+        margin-bottom: 5%;
+        margin-top:10px;
+        width:330px ;
+        height:180px;
+        background-color:#230044;
+        border-radius: 30px;
+
+    }
+
+    
+    .product{
+        background-color: #fafafa;
+        margin: 1rem;
+        padding: 1rem;
+        border: 2px solid #ccc;
+        width:100% !important;
+        height:300px !important;
+        text-align: center;
+    
+    }
+
+    .contenido >.subtitulo{
+        height:100%;
+        width:100%;
+        font-size:13px !important;
+    }
+
+    .contenido > p{
+        height:100%;
+        width:100%;
+        font-size:12px !important;
+        font-family: 'Press Start 2P', cursive;
+        color: black;
+
+    }
+
+    .card-add{
+        display:block;
+    }
+
+    .card-body{
+        height:270px !important;
+    }
+
+    .card-noticias{
+        width:33% !important;
+        height:500px !important;
+
+    }
+
+    
+    .torneos img {
+        height:200px !important;
+        background-color: red;
+    }
+
+
+
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+    
+    .header-1{
+        width:100px;
+        background-position: -250px -0px !important;
+    }
+    
+    .header-2{
+        background-position: -180px -290px !important;
+    }
+    
+    .header-3{
+        background-position: -190px -575px !important;
+    }
+
+    .info-img img{
+        margin-left:-10%;
+        width:300px !important;
+        height:300px !important;
+    }
+
+    
+        
+    .equipos  a div{
+        text-align: center;
+        margin-left:2%;
+        margin-bottom: 5%;
+        margin-top:10px;
+        width:250px ;
+        height:180px;
+        background-color: rgba(39, 7, 58, 0.541);
+        border-radius: 20px;
+
+    }
+
+    .equipos div:hover{
+        text-align: center;
+        margin-left:2%;
+        margin-bottom: 5%;
+        margin-top:10px;
+        width:260px ;
+        height:180px;
+        background-color:#230044;
+        border-radius: 30px;
+
+    }
+
+    .product{
+        background-color: #fafafa;
+        margin: 1rem;
+        padding: 1rem;
+        border: 2px solid #ccc;
+        width:100% !important;
+        height:350px;
+    
+    }
+
+    .subtitulo{
+        height:100%;
+        width:100%;
+        font-size:15px !important;
+    }
+
+    .contenido > p{
+        height:100%;
+        width:100%;
+        font-size:15px !important;
+        font-family: 'Press Start 2P', cursive;
+        color: black;
+
+    }
+    
+    .card-body{
+        height:210px !important;
+    }
+
+    .torneos img {
+        height:210px !important;
+    }
+
+    
 
 }

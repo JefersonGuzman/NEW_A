@@ -10,8 +10,8 @@ $(function () {
       icon_name = $(this).data("icon");
     }
     var icon = "<i class='fa fa-" + icon_name + "'></i>";
-    $('.btn-social', '.social-sizes').html(icon + "Sign in with " + $(this).data("name"));
-    $('.btn-social-icon', '.social-sizes').html(icon);
+    $('.btn-social', '.social-sizes')(icon + "Sign in with " + $(this).data("name"));
+    $('.btn-social-icon', '.social-sizes')(icon);
     $('.btn', '.social-sizes').removeClass(all_classes);
     $('.btn', '.social-sizes').addClass("btn-" + $(this).data('code'));
   });

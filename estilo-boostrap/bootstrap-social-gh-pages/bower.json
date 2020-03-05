@@ -8,7 +8,7 @@
   "license": "MIT",
   "ignore": [
     "assets",
-    "index.html",
+    "index",
     "LICENCE"
   ],
   "dependencies": {
