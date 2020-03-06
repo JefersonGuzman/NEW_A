@@ -1,0 +1,64 @@
+{
+    "name": "Evolution Gaming",
+    "short_name": "Evolution Gaming",
+    "description": "Somos una organizacion colombiana de eventos online de video juegos con el fin de impulsar y profesionalizar los esports en la comunidad latino americana.Comenzamos con Clash Royale y Continuamos con FreeFire uno de los juegos moviles mas populares Muldialmente con mucha fuerza a nivel de competencias profesionales, Nuestra mision es posicionar a latino america con una potencia en estos video juegos",
+    "background_color": "#fff",
+    "theme_color": "#000",
+    "orientation": "portrait",
+    "display": "standalone",
+    "start_url": "./?utm_source=web_app_manifest",
+    "scope": "./",
+    "lang": "es-MX",
+    "icons": [
+      {
+        "src": "./img/icon/icono_1024.png",
+        "sizes": "1024x1024",
+        "type": "image/png"
+      },
+      {
+        "src": "./img/icon/icono_512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "./img/icon/icono_384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "./img/icon/icono_256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "./img/icon/icono_192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "./img/icon/icono_128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "./img/icon/icono_96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "./img/icon/icono_64.png",
+        "sizes": "64x64",
+        "type": "image/png"
+      },
+      {
+        "src": "./img/icon/icono_32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      },
+      {
+        "src": "./img/icon/icono_16.png",
+        "sizes": "16x16",
+        "type": "image/png"
+      }
+    ]
+  }
