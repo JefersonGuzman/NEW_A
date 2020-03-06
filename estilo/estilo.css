@@ -353,10 +353,19 @@ h3{
     padding:5px;
     text-align: center;
     font-family:Boogaloo;
-    font-size:15px !important;
     color: red;
     
 
+}
+
+
+.fecha-publicacion p{
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    width:110px;
+    padding:5px;
+    font-family:Boogaloo;
+    text-align: center;
 }
 
 .Torneo-terminado p{
@@ -740,6 +749,19 @@ footer .subtitulo{
         display: inline !important;
       }
 
+      .title-menu-redes{
+        color: #fff;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 14px;
+        text-align: center;
+        padding: 10px;
+      }
+
+      .btn {
+          padding: 10px;
+          margin-top:20px;
+      }
+
 }
 
 @media only screen and (min-width: 400px) {
@@ -821,14 +843,6 @@ footer .subtitulo{
         font-size:15px !important;
     }
 
-    .fecha-publicacion p{
-        color: rgb(255, 255, 255);
-        background-color: #000000;
-        width:110px;
-        padding:5px;
-        font-size: 12px !important;
-        text-align: center;
-    }
 
     .Torneo-terminado p{
         color: #ffffff;
