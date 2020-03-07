@@ -30,6 +30,11 @@ body{
 
 .parrafo{
     font-family: 'Quantico', sans-serif;
+    padding: 10px;
+}
+
+.parrafo p>li{
+    padding: 10px;
 }
 
 .linea{
@@ -340,6 +345,7 @@ h3{
 /************ ESTILO CARD NOTICIAR**************/
 /************************************************/
 
+
 .card span{
     color:#4e0aa1;
     font-size: 15px;
@@ -347,22 +353,12 @@ h3{
 
 }
 
-.fecha-publicacion p{
-    background-color: #000000;
-    width:200px;
-    padding:5px;
-    text-align: center;
-    font-family:Boogaloo;
-    color: red;
-    
-
-}
 
 
 .fecha-publicacion p{
     color: rgb(255, 255, 255);
     background-color: #000000;
-    width:110px;
+    width:100%;
     padding:5px;
     font-family:Boogaloo;
     text-align: center;
@@ -371,7 +367,7 @@ h3{
 .Torneo-terminado p{
     color: #ffffff;
     background-color: #440000;
-    width:200px;
+    width:100%;
     padding:5px;
     text-align: center;
     font-family:Boogaloo;
@@ -381,7 +377,7 @@ h3{
 .Torneo-Inscripcion p{
     color: #ffffff;
     background-color: #fd7200;
-    width:100px;
+    width:100%;
     padding:5px;
     text-align: center;
     font-family:Boogaloo;
@@ -391,7 +387,6 @@ h3{
 .Torneo-Inscripcion p:hover{
     color: #ffffff;
     background-color: #d16003;
-    width:100px;
     padding:4px;
     text-align: center;
     font-family:Boogaloo;
@@ -401,7 +396,7 @@ h3{
 .Torneo-Reglas p{
     color: #ffffff;
     background-color: #bb0e0e;
-    width:100px;
+    width:100%;
     padding:5px;
     text-align: center;
     font-family:Boogaloo;
@@ -411,7 +406,6 @@ h3{
 .Torneo-Reglas p:hover{
     color: #ffffff;
     background-color: #940505;
-    width:100px;
     padding:4px;
     text-align: center;
     font-family:Boogaloo;
@@ -421,7 +415,7 @@ h3{
 .Torneo-ver-mas p{
     color: #ffffff;
     background-color: #025fb6;
-    width:100px;
+    width:100%;
     padding:5px;
     text-align: center;
     font-family:Boogaloo;
@@ -431,7 +425,6 @@ h3{
 .Torneo-ver-mas p:hover{
     color: #ffffff;
     background-color: #075195;
-    width:100px;
     padding:4px;
     text-align: center;
     font-family:Boogaloo;
@@ -440,8 +433,7 @@ h3{
 
 
 .card-body{
-    height:505px !important;
-    padding:10px;
+    height:515px !important;
     border: 1px rgba(39, 7, 58, 0.541) dashed;
  
 }
@@ -631,24 +623,6 @@ footer .subtitulo{
     width:100%;
 }
 
-
-.panel-marquee-Ess-FF{
-    background-image: url('https://pbs.twimg.com/media/EG4X4aZWkAAMI6d?format=jpg&name=small'); 
-    background-position: center bottom; 
-    background-size:100% 100%;
-    background-repeat: no-repeat;
-    
-}
-
-.panel-marquee-Liga-CR{
-    background-image: url('https://pbs.twimg.com/media/D0_vG9IXQAEE9PU?format=jpg&name=small') ; 
-    background-position:center bottom; 
-    background-size:100% 100%;
-    background-repeat: no-repeat;
-    
-}
-
-
 /*********************************************/
 /*****************Estilo Conometro************/
 
@@ -756,7 +730,7 @@ footer .subtitulo{
   
 
     .card-body{
-        height: 300px !important;
+        height: 350px !important;
     }
 
     .card-body p{
@@ -804,6 +778,38 @@ footer .subtitulo{
       .cotenedor{
           margin-left:2% !important;
       }
+
+      /***************************************/
+      
+    .fecha-publicacion p{
+        color: rgb(255, 255, 255);
+        background-color: #000000;
+        width:100% !important;
+        padding:5px;
+        font-family:Boogaloo;
+        text-align: center;
+    }
+
+    .Torneo-Inscripcion p{
+        color: #ffffff;
+        background-color: #fd7200;
+        width:100% !important;
+        padding:5px;
+        text-align: center;
+        font-family:Boogaloo;
+    
+    }
+
+    .Torneo-terminado p{
+        color: #ffffff;
+        background-color: #440000;
+        width:100% !important; 
+        padding:5px;
+        text-align: center;
+        font-family:Boogaloo;
+    
+    }
+    
 
 }
 
@@ -879,7 +885,7 @@ footer .subtitulo{
     
 
     .card-body{
-        height: 310px !important;
+        height: 390px !important;
     }
 
     .card-body p{
@@ -890,9 +896,9 @@ footer .subtitulo{
     .Torneo-terminado p{
         color: #ffffff;
         background-color: #440000;
-        width:110px;
+        width:130px;
         padding:5px;
-        font-size: 12px !important;
+        font-size: 15px !important;
         text-align: center;
     }
 
