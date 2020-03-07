@@ -649,8 +649,44 @@ footer .subtitulo{
 }
 
 
+/*********************************************/
+/*****************Estilo Conometro************/
 
+.cotenedor{
+    text-align: center;
+    margin-left: 35% !important;
+}
+.cabecera{
+    background-color: #147e2d!important;
+    padding:2px;
+    width:260px;
+    border-top-right-radius: 10px;
+    border-top-left-radius:10px;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    text-align: center;
+}
 
+.cuerpo{
+    background-color: #28a745!important;
+    width:260px;
+    padding: 10px;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px;
+
+}
+.titulo-sub{
+    font-family: 'Press Start 2P', cursive;
+    font-size:10px !important;
+    padding:5px;
+    color: #fff;
+}
+
+.cuerpo span{
+    font-family: 'Press Start 2P', cursive;
+    font-size:15px !important;
+    color: #fff;
+}
 @media only screen and (min-width: 120px) {
 
 
@@ -762,6 +798,13 @@ footer .subtitulo{
           margin-top:20px;
       }
 
+
+      /**********************************/
+      /**********CRONOMETRO***************/
+      .cotenedor{
+          margin-left:2% !important;
+      }
+
 }
 
 @media only screen and (min-width: 400px) {
@@ -853,7 +896,11 @@ footer .subtitulo{
         text-align: center;
     }
 
-
+      /**********************************/
+      /**********CRONOMETRO***************/
+      .cotenedor{
+        margin-left:25% !important;
+    }
 
 
 
@@ -974,6 +1021,13 @@ footer .subtitulo{
     
     .torneos img {
         height:200px !important;
+    }
+
+    
+      /**********************************/
+      /**********CRONOMETRO***************/
+      .cotenedor{
+        margin-left:35% !important;
     }
 
 
