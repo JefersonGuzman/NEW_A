@@ -30,5 +30,5 @@ const countdown = (deadline,elem,finalMessage) =>{
     },1000)
 };
 
-countdown('Mar 08 2020 15:00:00 GMT-0500','clock','Ya se Cerraran las Inscripciones al Torneos');
+countdown('Mar 08 2020 15:00:00 GMT-0500','clock','Los Registros ya se Terminaron :) <hr/>');
 

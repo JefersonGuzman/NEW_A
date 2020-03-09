@@ -431,6 +431,16 @@ h3{
 
 }
 
+.Torneo-Inscripcion_off p{
+    color: #ffffff;
+    background-color: #a7a3a1;
+    width:100%;
+    padding:5px;
+    text-align: center;
+    font-family:Boogaloo;
+
+}
+
 
 .card-body{
     height:515px !important;
