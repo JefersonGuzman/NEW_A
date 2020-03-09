@@ -661,6 +661,14 @@ footer .subtitulo{
     font-size:15px !important;
     color: #fff;
 }
+
+/**********************************************/
+/**************estilo tabla***********************/
+/****************************************************/
+.tabla-clanes{
+    text-align: center;
+}
+
 @media only screen and (min-width: 120px) {
 
 
@@ -908,6 +916,38 @@ footer .subtitulo{
         margin-left:25% !important;
     }
 
+    /************************************************/
+    /*********** TABLA EQUIPOS **************************/
+    /**************************************************/
+    .confi_si{
+        background-color: #0c662d;
+        color: #fff;
+        text-align: center;
+    }
+
+    .confi_no{
+        background-color: rgb(180, 24, 24);
+        color: #fff;
+        text-align: center;
+    }
+
+    .colum-peq{
+        width:20px !important;
+        text-align: center;
+    }
+    .colum-med{
+        width:50px !important;
+        text-align: center;
+    }
+
+    .colum-gran{
+        width:400px !important;
+        text-align: center;
+    }
+
+    .table-bordered{
+        text-align: center;
+    }
 
 
 
