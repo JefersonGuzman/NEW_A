@@ -668,6 +668,42 @@ footer .subtitulo{
 .tabla-clanes{
     text-align: center;
 }
+    /************************************************/
+    /*********** TABLA EQUIPOS **************************/
+    /**************************************************/
+    .confi_si{
+        background-color: #0c662d;
+        color: #fff;
+        text-align: center;
+    }
+
+    .confi_no{
+        background-color: rgb(180, 24, 24);
+        color: #fff;
+        text-align: center;
+    }
+
+    .colum-peq{
+        width:20px !important;
+        text-align: center;
+    }
+    .colum-med{
+        width:50px !important;
+        text-align: center;
+    }
+
+    .colum-gran{
+        width:400px !important;
+        text-align: center;
+    }
+
+    .table-bordered{
+        text-align: center;
+    }
+
+    .tabla-participantes{
+        padding-top:4%;
+    }
 
 @media only screen and (min-width: 120px) {
 
@@ -948,6 +984,7 @@ footer .subtitulo{
     .table-bordered{
         text-align: center;
     }
+
 
 
 
