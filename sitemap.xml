@@ -1,56 +1,210 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>http://evoagencialatam.com/</loc>
-    <lastmod>2020-03-07</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2020-03-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>http://evoagencialatam.com/img/logo.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://evoagencialatam.com/img/banner.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://evoagencialatam.com/img/Freefire/FF-TORNEO-VANE.jpeg</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://evoagencialatam.com/img/Freefire/FF-TORNEO-GUZZY.jpeg</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://evoagencialatam.com/img/Freefire/FF-TORNEO-JEFF.jpeg</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://evoagencialatam.com/img/essence-championship.jpg</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://evoagencialatam.com/img/liga-col.jpg</image:loc>
+      <image:caption />
+    </image:image>
   </url>
   <url>
     <loc>http://evoagencialatam.com/reglas</loc>
-    <lastmod>2020-03-07</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>http://evoagencialatam.com/index</loc>
-    <lastmod>2020-03-07</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>http://evoagencialatam.com/torneos</loc>
-    <lastmod>2020-03-07</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>http://evoagencialatam.com/tabla-de-clanes-torneo-guzzy</loc>
-    <lastmod>2020-03-07</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>http://evoagencialatam.com/tabla-de-clanes-torneo-vane</loc>
-    <lastmod>2020-03-07</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>http://evoagencialatam.com/tabla-de-clanes-torneo-srjeff</loc>
-    <lastmod>2020-03-07</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>http://evoagencialatam.com/inscripcion-freefire-vane</loc>
-    <lastmod>2020-03-07</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2020-03-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>http://evoagencialatam.com/img/logo.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://evoagencialatam.com/img/banner.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://evoagencialatam.com/img/Freefire/logo.png</image:loc>
+      <image:caption />
+    </image:image>
   </url>
   <url>
     <loc>http://evoagencialatam.com/inscripcion-freefire-srjeff</loc>
-    <lastmod>2020-03-07</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2020-03-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>http://evoagencialatam.com/img/logo.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://evoagencialatam.com/img/Freefire/banner-srjeff.jpeg</image:loc>
+      <image:caption />
+    </image:image>
+  </url>
+  <url>
+    <loc>http://evoagencialatam.com/index</loc>
+    <lastmod>2020-03-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>http://evoagencialatam.com/img/logo.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://evoagencialatam.com/img/banner.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://evoagencialatam.com/img/Freefire/FF-TORNEO-VANE.jpeg</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://evoagencialatam.com/img/Freefire/FF-TORNEO-GUZZY.jpeg</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://evoagencialatam.com/img/Freefire/FF-TORNEO-JEFF.jpeg</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://evoagencialatam.com/img/essence-championship.jpg</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://evoagencialatam.com/img/liga-col.jpg</image:loc>
+      <image:caption />
+    </image:image>
+  </url>
+  <url>
+    <loc>http://evoagencialatam.com/torneos</loc>
+    <lastmod>2020-03-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>http://evoagencialatam.com/img/logo.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://evoagencialatam.com/img/banner.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://evoagencialatam.com/img/Freefire/FF-TORNEO-GUZZY.jpeg</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://evoagencialatam.com/img/Freefire/FF-TORNEO-JEFF.jpeg</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://evoagencialatam.com/img/Freefire/FF-TORNEO-VANE.jpeg</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://evoagencialatam.com/img/essence-championship/campeon-ess.jpg</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://evoagencialatam.com/img/Liga-Col-CR/campeon-cr.jpg</image:loc>
+      <image:caption />
+    </image:image>
+  </url>
+  <url>
+    <loc>http://evoagencialatam.com/inscripcion-freefire-vane</loc>
+    <lastmod>2020-03-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>http://evoagencialatam.com/img/logo.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://evoagencialatam.com/img/Freefire/banner-vane.jpeg</image:loc>
+      <image:caption />
+    </image:image>
   </url>
   <url>
     <loc>http://evoagencialatam.com/inscripcion-freefire-guzzy</loc>
-    <lastmod>2020-03-07</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2020-03-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>http://evoagencialatam.com/img/logo.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://evoagencialatam.com/img/Freefire/banner-guzzy.jpeg</image:loc>
+      <image:caption />
+    </image:image>
+  </url>
+  <url>
+    <loc>http://evoagencialatam.com/tabla-de-clanes-torneo-srjeff</loc>
+    <lastmod>2020-03-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>http://evoagencialatam.com/img/logo.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://evoagencialatam.com/img/Freefire/banner-srjeff_.jpeg</image:loc>
+      <image:caption />
+    </image:image>
+  </url>
+  <url>
+    <loc>http://evoagencialatam.com/tabla-de-clanes-torneo-vane</loc>
+    <lastmod>2020-03-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>http://evoagencialatam.com/img/logo.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://evoagencialatam.com/img/Freefire/banner-vane_.jpeg</image:loc>
+      <image:caption />
+    </image:image>
+  </url>
+  <url>
+    <loc>http://evoagencialatam.com/tabla-de-clanes-torneo-guzzy</loc>
+    <lastmod>2020-03-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>http://evoagencialatam.com/img/logo.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://evoagencialatam.com/img/Freefire/banner-guzzy_.jpeg</image:loc>
+      <image:caption />
+    </image:image>
   </url>
 </urlset>
-<!--<guid value="b2ff356f-b4a8-4212-97b0-a5b91ba23f56" />-->
+<!--<guid value="381deb79-9841-4053-8501-08e3dc176a57" />-->
 <!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
