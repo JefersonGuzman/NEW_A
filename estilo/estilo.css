@@ -158,9 +158,12 @@ h3{
 .conteiner-juegos img {
     width:200px;
     padding:30px;
-    
-
 }
+
+.redes>a> img  {
+    width:120px !important;
+    height:50px !important;
+  }
 
 
 .logo{
