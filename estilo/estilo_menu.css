@@ -73,16 +73,21 @@ ul img {
   padding-top:10px;
 }
 
-.header-center ul li:hover{
-  background-color: #ffffff !important;
+.menu_activo{
   border: 1px rgb(255, 255, 255) dashed;
-  color: #000000;
 }
 
-.menu_activo {
-  background-color: #ffffff !important;
+.header-center ul li:hover{
   border: 1px rgb(255, 255, 255) dashed;
-  color: #000;
+  color: #ffffff !important;
+  background-color: rgba(43, 42, 42, 0.801);
+}
+
+.header-center ul li{
+  background-color: #000;
+  border: 1px rgb(255, 255, 255) dashed;
+  color: #ffffff !important;
+
 }
 
 .u-flex0 {
@@ -137,7 +142,23 @@ ul img {
   text-transform: uppercase;
 
 }
+.sub_menu{
+  position: absolute;
+  width:14.8%;
+  padding: 20px 5px 5px 20px !important;
+  text-align: center !important;
+  margin-left: -6%;
+  height: 50px !important;
+  display: none;
+  font-size:15px;
 
+}
+
+
+nav li:hover > ul {
+  display: block;
+  
+}
 
 
 /* Toggle BTN for Menu */
@@ -233,6 +254,8 @@ ul img {
 
 li{
     font-family:Boogaloo;
+    text-decoration: none;
+
     
 }
 
@@ -261,13 +284,13 @@ li{
   height:150px;
 }
 
-
-
 .logo-menu-sidenav img {
   width: 220px !important;
   height: 150px !important;
-  margin-left: -20%;
+  margin-left:-20%;
 }
+
+
 
 @media only screen and (max-width: 1270px) {
   body.is-showNavMob {
@@ -359,7 +382,7 @@ li{
   }
 
 .icono{
-    width:250px !important;
+    width:180px !important;
     height:100px !important;
     display:block;
   }

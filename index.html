@@ -29,9 +29,9 @@
     <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src="/js/eskju.jquery.scrollflow.min.js"></script>
-    
+
     <!-- Etiqueta de metadatos para twitter-->
- <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@EvoGamingMobile    " />
     <meta name="twitter:creator" content="@EvoGamingMobile" />
     <meta property="og:image" content="https://evoagencialatam.com/img/logo.png"/>
@@ -49,7 +49,7 @@
         <!-- Logo -->
         <div class="header-left u-flex0">
             <h1 class="title-menu">Evolution Gaming</h1>
-          <a href="index" class=""><img src="img/logo.png"  alt="" class="icono"></a>
+            <a href="index" class=""><img src="img/logo.png"  alt="" class="icono"></a>
         </div>
         <!-- <div class="menu-header">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -62,9 +62,16 @@
         <!-- menu -->
         <nav class="header-center  u-flex1">
           <ul class="u-flex u-flexCenter u-hide-before-md">
-            <a href="/index"><li class="menu_activo">INFORMACION</li></a>
-            <a href="/torneos"><li class="">TORNEOS</li></a>
-            <a href="/patrocinador"><li class="">PATROCINADOR</li></a>           
+           <a href="#index"><li class="menu_activo">INFORMACION</li></a>
+           <a href="#torneos">
+               <li class="">TORNEOS
+                    <ul class="sub_menu">
+                        <a href="/torneos-freefire"><li>FreeFire</li></a> 
+                        <a href="/torneo-clashRoyale"><li>ClashRoyale</li></a>
+                    </ul>
+                </li>
+            </a>
+             <a href="/patrocinador"><li class="">PATROCINADOR</li></a>     
      
           </ul>
         </nav>
@@ -90,8 +97,7 @@
             <ul>
                 <a href="/index"><li class="menu_activo">INFORMACION</li></a>
                 <a href="/torneos"><li class="">TORNEOS</li></a>
-                <a href="/patrocinador"><li class="">PATROCINADOR</li></a>      
-                     
+                <a href="/patrocinador"><li class="">PATROCINADOR</li></a>          
                 <hr/>   
             </ul>          
             <a href="index" class=""><img src="img/logo.png"  alt="" class="logo-menu-sidenav"></a>
@@ -119,7 +125,7 @@
     <div class="container contenido">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 inicio-parrafo">
-                <h1 class="titulo">¿ Que es Evolution Gaming ?</h1>
+                <h1 class="titulo" id="index">¿ Que es Evolution Gaming ?</h1>
                     <p class="parrafo">
                         Somos una organizacion colombiana de eventos online de video juegos con el fin de impulsar y profesionalizar los esports en la comunidad latino americana.<br>
                         Comenzamos con Clash Royale y Continuamos con FreeFire uno de los juegos moviles mas populares Muldialmente con mucha fuerza a nivel de competencias profesionales, Nuestra mision es posicionar a latino america 
@@ -137,72 +143,34 @@
     <div class="container contenido">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 torneos">
-                <h1 class="titulo">Torneos</h1>
+                <h1 class="titulo" id="torneos">Torneos</h1>
                 <br/>
-
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 card-noticias-inicio">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 card-noticias-inicio">
                     <div class="card" style="width:100%;">
-                        <img class="card-img-top" src="img/Freefire/banner-torneo.png" alt="">
-                        <div class="card-body">
-                            <p class="card-title parrafo"><span>Modo de Juego:</span>
-                                <br/><span>2</span> Squad Clasificados al Dia
-                                <br/><span>24</span> Squad Clasificados Juegan Semifinal
-                                <br/><span>Squad</span> Clasificados Juegan Final
-                                <br/>Premio Squad Ganadora <span>40</span> USD  = <span>128.000 cop</span>
-                                <br/>Inscripcion Totalmente <span>Gratis</span>
-                            </p> 
-                            
-                            <div class="pie-card">
-                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 fecha-publicacion">
-                                    <p>[ 05/03/2020 ]</p>
-                                </div>
-                                <a href="/torneos">
-                                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 Torneo-ver-mas">
-                                        <p>Ver Mas</p>
-                                    </div>
-                                </a>
+                        <img class="card-img-top" src="img/Freefire/torneo-banner.jpg" alt="">
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 fecha-publicacion">
+                            <p>[ 6 Torneos Realizados 3.500 Personas Registradas]</p>
+                        </div>
+                        <a href="/torneos-freefire">
+                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 Torneo-ver-mas">
+                                <p>Quieres Mas Informacion de Todos Nuestros Torneos Clic Aqui !</p>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 card-noticias-inicio">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 card-noticias-inicio">
                     <div class="card" style="width:100%;">
-                        <img class="card-img-top" src="img/essence-championship.jpg" alt="">
-                        <div class="card-body">
-                            <p class="card-title parrafo"><span>#Resultado</span> |Oficialmente anunciamos la Free Fire Essence Championship, competencia patrocinada por 
-                                <span>@EssenceGaming_</span>
-                                . Tendra 24 clubes profesionales invitados en Primera División, compitiendo por una bolsa de premios de <span>500.000 Mil</span> Pesos.
-                                Inscripciones para el torneo de ascenso, mañana. 
-                            </p>    
-                            <div class="pie-card">
-                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 fecha-publicacion">
-                                    <p>[ 10/14/2019 ]</p>
-                                </div>
-                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 Torneo-terminado">
-                                    <p>TORNEO FINALIZADO</p>
-                                </div>
+                        <img class="card-img-top" src="img/Liga-Col-CR/clashRoyale-banner.jpg" alt="">
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 fecha-publicacion">
+                            <p>[ 1 Torneo Realizado 400 Personas Registradas Latinoamerica ]</p>
+                        </div>
+                        <a href="/torneos-clashroyale">
+                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 Torneo-ver-mas">
+                                <p>Quieres Mas Informacion de Todos Nuestros Torneos Clic Aqui !</p>
                             </div>
-                        </div>
+                        </a>
                     </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 card-noticias-inicio">
-                    <div class="card" style="width:100%;">
-                        <img class="card-img-top" src="img/liga-col.jpg" alt="">
-                        <div class="card-body">
-                            <p class="card-title parrafo"><span>#LigaCol</span> |Estamos cerca de empezar la Liga que reúne a los mejores equipos  colombianos de CR en una sola Competencia  para que  luchen y demuestren cuál es el mejor equipo  a nivel nacional. Cabeza que explota
-                                ¿Cuales equipos les gustaría ver participando en <span>#LigaColCR</span> Etiquetalo ?</p>
-                                <div class="pie-card">
-                                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 fecha-publicacion">
-                                        <p>[ 01/31/2019 ]</p>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 Torneo-terminado">
-                                        <p>TORNEO FINALIZADO</p>
-                                    </div>
-                                </div>
-                        </div>
-                    </div>
-                </div>
-                
+                </div>             
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
