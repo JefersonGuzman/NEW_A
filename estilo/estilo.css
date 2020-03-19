@@ -594,29 +594,24 @@ footer .subtitulo{
 /***************PAGINA DE ERROR****************/
 /**********************************************/
 
-.pagina-error {
-    background-color: rgba(45, 3, 76, 0.931);
+.error_fondo {
+    background-color: rgba(0, 0, 0, 0.931);
 }
 
 .page-error {
-    padding:30px;
+    padding:50px;
 }
 
-.page-error .error { 
-    font-family: 'Pacifico';
-    font-size: 10pc !important;
-    color: #f1f1f1;
-}  
 
 .page-error .mgs-error { 
-    font-size: 5pc !important;
+    font-size: 4pc !important;
     font-family: 'Press Start 2P', cursive;
     color: #f1f1f1;
 } 
 
 .page-error h3{
     font-family: 'Press Start 2P', cursive;
-    font-size:2pc;
+    font-size:1pc;
     color: #f1f1f1;
     
 }
