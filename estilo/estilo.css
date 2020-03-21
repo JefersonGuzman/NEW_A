@@ -756,6 +756,16 @@ footer .subtitulo{
     width:120px;
     height:45px;
 }
+.icon-streamer{
+    height:90px !important;
+    width:100px !important;
+}
+
+.icon-streamer img {
+    height:90px !important;
+    width:100px !important;
+}
+
 @media only screen and (min-width: 120px) {
 
 
@@ -1119,7 +1129,7 @@ footer .subtitulo{
 
     
     .torneos img {
-        height:200px !important;
+        height:200px;
     }
 
     
@@ -1212,7 +1222,7 @@ footer .subtitulo{
     }
 
     .torneos img {
-        height:210px !important;
+        height:210px;
     }
 
     .title-menu{
