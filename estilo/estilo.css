@@ -684,65 +684,78 @@ footer .subtitulo{
 .tabla-clanes{
     text-align: center;
 }
-    /************************************************/
-    /*********** TABLA EQUIPOS **************************/
-    /**************************************************/
-    .confi_si{
-        background-color: #0c662d;
-        color: #fff;
-        text-align: center;
-    }
 
-    .confi_no{
-        background-color: rgb(180, 24, 24);
-        color: #fff;
-        text-align: center;
-    }
+/************************************************/
+/*********** TABLA EQUIPOS **************************/
+/**************************************************/
+.confi_si{
+    background-color: #0c662d;
+    color: #fff;
+    text-align: center;
+}
 
-    .colum-peq{
-        width:20px !important;
-        text-align: center;
-    }
-    .colum-med{
-        width:50px !important;
-        text-align: center;
-    }
+.confi_no{
+    background-color: rgb(180, 24, 24);
+    color: #fff;
+    text-align: center;
+}
 
-    .colum-gran{
-        width:400px !important;
-        text-align: center;
-    }
+.colum-peq{
+    width:10px !important;
+    text-align: center;
+    background-color: #025fb6;
+    font-family: 'Quantico', sans-serif;
 
-    .table-bordered{
-        text-align: center;
-    }
+    color: #fff;
+}
+.colum-med{
+    width:10px !important;
+    text-align: center;
+}
 
-    .tabla-participantes{
-        padding-top:4%;
-    }
+.colum-gran{
+    width:50% !important;
+    text-align: center;
+    background-color: #025fb6;
+    font-family: 'Quantico', sans-serif;
+
+    color: #fff;
 
 
-    .tabla-juegadores img{
-        width:100px;
-        height:50px;
-    }
+}
 
-    .pos{
-        background-color: #000;
-        color: #fff;
-        font-size:25px;
-        font-family: 'Quantico', sans-serif;
-        padding:20px;
+.pos{
+    background-color: rgb(238, 178, 13) ;
+    color: #fff;
+    font-size:25px;
+    font-family: 'Quantico', sans-serif;
+    padding:20px;
 
-    }
-    
-    .ptos{
-        background-color: rgb(241, 82, 8);
-        color: #fff;
-        font-size:25px;
-        font-family: 'Quantico', sans-serif;
+}
 
-    }
+.ptos{
+    background-color: rgb(241, 82, 8) !important;
+    color: #fff;
+    font-size:25px;
+    font-family: 'Quantico', sans-serif;
+
+}
+
+.table-bordered{
+    text-align: center;
+}
+
+.tabla-participantes{
+    padding-top:4%;
+}
+
+.tabla-juegadores tr >td{
+    background-color:black;
+}
+.tabla-juegadores img{
+    width:120px;
+    height:45px;
+}
 @media only screen and (min-width: 120px) {
 
 
@@ -990,42 +1003,7 @@ footer .subtitulo{
         margin-left:25% !important;
     }
 
-    /************************************************/
-    /*********** TABLA EQUIPOS **************************/
-    /**************************************************/
-    .confi_si{
-        background-color: #0c662d;
-        color: #fff;
-        text-align: center;
-    }
-
-    .confi_no{
-        background-color: rgb(180, 24, 24);
-        color: #fff;
-        text-align: center;
-    }
-
-    .colum-peq{
-        width:20px !important;
-        text-align: center;
-    }
-    .colum-med{
-        width:50px !important;
-        text-align: center;
-    }
-
-    .colum-gran{
-        width:400px !important;
-        text-align: center;
-    }
-
-    .table-bordered{
-        text-align: center;
-    }
-
-
-
-
+ 
 
 }
 
