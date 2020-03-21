@@ -14,3 +14,7 @@ if('serviceWorker' in navigator){
   .catch(err=>console.warn('Error al Tratar de Registrar el SW',
   err))
 }
+
+$(document).ready(function() {
+  $('#example').DataTable();
+} );
