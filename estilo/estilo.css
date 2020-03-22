@@ -363,6 +363,18 @@ h3{
     padding:5px;
     font-family:Boogaloo;
     text-align: center;
+    border-radius: 1pc;
+
+}
+
+.btn-formulario p{
+    color: rgb(255, 255, 255);
+    background-color: #025fb6;
+    width:100%;
+    padding:5px;
+    font-family:Boogaloo;
+    text-align: center;
+    border-radius: 1pc;
 }
 
 .Torneo-terminado p{
@@ -401,16 +413,15 @@ h3{
     padding:5px;
     text-align: center;
     font-family:Boogaloo;
+    border-radius: 1pc;
 
 }
 
 .Torneo-Reglas p:hover{
     color: #ffffff;
     background-color: #940505;
-    padding:4px;
     text-align: center;
     font-family:Boogaloo;
-
 }
 
 .Torneo-ver-mas p{
@@ -705,7 +716,6 @@ footer .subtitulo{
     text-align: center;
     background-color: #025fb6;
     font-family: 'Quantico', sans-serif;
-
     color: #fff;
 }
 .colum-med{
@@ -914,7 +924,7 @@ footer .subtitulo{
         font-family:Boogaloo;
     
     }
-    
+
 
 }
 
