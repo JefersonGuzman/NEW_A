@@ -696,6 +696,46 @@ footer .subtitulo{
     text-align: center;
 }
 
+.grupos{
+    width:250px;
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    margin: 10px;
+}
+
+.grupos img{
+    height:350px;
+    width:250px;
+    padding:10px;
+    background-color: rgba(0, 0, 0, 0.342);
+    border-radius:5ch;
+
+
+   
+}
+
+#Grupo_A{
+    display:none;
+}
+
+#Grupo_B{
+    display:none;
+}
+
+#Grupo_C{
+    display:none;
+}
+
+#Grupo_D{
+    display:none;
+}
+
+
+.grupos :hover{
+    background-color: rgba(0, 0, 0, 0.507);
+
+}
 /************************************************/
 /*********** TABLA EQUIPOS **************************/
 /**************************************************/

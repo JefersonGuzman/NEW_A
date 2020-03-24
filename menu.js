@@ -18,3 +18,35 @@ if('serviceWorker' in navigator){
 $(document).ready(function() {
   $('#example').DataTable();
 } );
+
+
+function MostrarA(){
+  document.getElementById('Grupo_D').style.display="none";
+  document.getElementById('Grupo_C').style.display="none";
+  document.getElementById('Grupo_B').style.display="none";
+  document.getElementById('Grupo_A').style.display="block";
+}
+
+function MostrarB(){
+  document.getElementById('Grupo_D').style.display="none";
+  document.getElementById('Grupo_C').style.display="none";
+  document.getElementById('Grupo_B').style.display="block";
+  document.getElementById('Grupo_A').style.display="none";
+
+
+}
+
+function MostrarC(){
+  document.getElementById('Grupo_D').style.display="none";
+  document.getElementById('Grupo_C').style.display="block";
+  document.getElementById('Grupo_B').style.display="none";
+  document.getElementById('Grupo_A').style.display="none";
+}
+
+function MostrarD(){
+  document.getElementById('Grupo_D').style.display="block";
+  document.getElementById('Grupo_C').style.display="none";
+  document.getElementById('Grupo_B').style.display="none";
+  document.getElementById('Grupo_A').style.display="none";
+
+}
