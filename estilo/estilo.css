@@ -801,10 +801,11 @@ footer .subtitulo{
 
 .tabla-juegadores tr >td{
     background-color:black;
+    padding: 0px !important;
 }
 .tabla-juegadores img{
-    width:120px;
-    height:45px;
+    width:100px;
+    height:25px;
 }
 .icon-streamer{
     height:90px !important;
