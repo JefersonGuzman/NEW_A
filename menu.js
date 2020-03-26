@@ -50,3 +50,10 @@ function MostrarD(){
   document.getElementById('Grupo_A').style.display="none";
 
 }
+
+<script>
+$(document).ready(function()
+{
+$("#mostrarmodal").modal("show");
+});
+</script>
