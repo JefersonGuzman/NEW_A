@@ -11,12 +11,12 @@ html {
 }
 
 .modal-content{
-    background-image: url("");
+    background-image: url("https://pbs.twimg.com/media/ET6aj6AXgAEBHoq?format=jpg&name=medium");
     height: 500px; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
-    border: solid rgb(196, 196, 196) 1pc;
+    border: solid red 1pc;
 }
 
 .fondos{
