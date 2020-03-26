@@ -428,16 +428,18 @@ h3{
     color: #ffffff;
     background-color: #025fb6;
     width:100%;
-    padding:5px;
+    padding:10px;
     text-align: center;
     font-family:Boogaloo;
+    border-radius:1pc;
+    font-size: 15px;
 
 }
 
 .Torneo-ver-mas p:hover{
     color: #ffffff;
     background-color: #075195;
-    padding:4px;
+    padding:11px;
     text-align: center;
     font-family:Boogaloo;
 
@@ -598,6 +600,16 @@ footer .subtitulo{
     font-size:15px !important;
     font-family: 'Press Start 2P', cursive;
     color: black;
+
+}
+
+.info-btn p{
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    width:100%;
+    padding:5px;
+    font-family:Boogaloo;
+    text-align: center;
 
 }
 
