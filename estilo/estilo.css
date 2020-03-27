@@ -748,19 +748,21 @@ footer .subtitulo{
 }
 
 .grupos{
-    width:250px;
+    width:210px;
     max-width: 100%;
     height: auto;
     display: inline-block;
-    margin: 10px;
+    margin:5px;
+
+
 }
 
 .grupos img{
-    height:350px;
-    width:250px;
-    padding:10px;
+    height:250px;
+    width:200px;
+    padding:5px;
     background-color: rgba(0, 0, 0, 0.342);
-    border-radius:5ch;
+    border-radius:2ch;
 
 
    
